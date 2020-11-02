@@ -1,0 +1,14 @@
+$fontcolor: #FCF119;
+$background:#01AC4E;
+
+body {
+  display: grid;
+}
+
+.headerContent{
+  display: grid;
+  grid-template-columns: 2/7 1/18 1/7 1/7 2/7;
+  background: $background;
+  color: $fontcolor;
+  padding: 30px;
+}
