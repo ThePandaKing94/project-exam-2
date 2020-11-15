@@ -1,0 +1,11 @@
+Links:
+Background: #FCF119
+Color: #01AC4E
+
+Order Take Away:
+Color: #F23558
+Background: #F2E605 0.7 opacity
+
+Menu header:
+Color: #0377A6
+

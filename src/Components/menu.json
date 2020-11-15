@@ -1,0 +1,10 @@
+{  
+  "dishes": [
+              {
+                "number": "1",
+                "title": "Pad Thai",
+                "allergies": "Allergener: nøtter, egg, hvete"
+                
+              }  
+           ]
+}
