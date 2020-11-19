@@ -5,9 +5,7 @@ import './assets/sass/_home.scss';
 
 function App() {
   return (
-
-      <Home></Home>
-
+    <Home></Home>
   );
 }
 
