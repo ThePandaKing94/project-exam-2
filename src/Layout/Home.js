@@ -26,6 +26,9 @@ function siam() {
     <div>Contact <NavLink activeClassName="is-active" to="/Contact"></NavLink></div>
   )
 
+  console.log(home)
+  console.log(takeAway)
+
   return (
     
     <html>

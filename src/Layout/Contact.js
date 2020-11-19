@@ -4,7 +4,8 @@ import langNorway from "../Components/images/icons/langNorway.png";
 import recInsta from "../Components/images/icons/recInsta.png";
 import recGoogle from "../Components/images/icons/recGoogle.png";
 import recFb from "../Components/images/icons/recFb.png";
-import { BrowserRouter, Route, Switch, NavLink } from 'react-router-dom';
+import Home from "./Home"
+import { BrowserRouter as Route, Switch, NavLink } from 'react-router-dom';
 import background from '../Components/images/headerBackground.jpg';
 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 
@@ -31,7 +32,7 @@ function siam() {
     <html>
     <header style={{ backgroundImage:`url(${background})`}}>
       <Switch>
-            <Route to="Home" component={home} id="logoContainer">
+            <Route to="Home" component={home}>
               <img id="logo" alt="Siam Thai Cafe" src={logo}/> 
             </Route>
             <Route to="TakeAway" component={takeAway} class="headerRoutes">Take Away</Route>
