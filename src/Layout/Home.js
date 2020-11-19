@@ -4,33 +4,53 @@ import langNorway from "../Components/images/icons/langNorway.png";
 import recInsta from "../Components/images/icons/recInsta.png";
 import recGoogle from "../Components/images/icons/recGoogle.png";
 import recFb from "../Components/images/icons/recFb.png";
-import { Link } from 'react-router-dom';
 import background from '../Components/images/headerBackground.jpg';
+import { BrowserRouter as Router, Route, Switch, NavLink } from 'react-router-dom';
 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 
+function siam() {
 
-function Home() {
+  const home = () => (
+    <div>Home <NavLink activeClassName="is-active" to="/Home"></NavLink></div>
+  )
 
+  const takeAway = () => (
+    <div>Take Away <NavLink activeClassName="is-active" to="/TakeAway"></NavLink></div>
+  )
+
+  const ourJourney = () => (
+    <div>Our Journey <NavLink activeClassName="is-active" to="/OurJourney"></NavLink></div>
+  )
+
+  const contact = () => (
+    <div>Contact <NavLink activeClassName="is-active" to="/Contact"></NavLink></div>
+  )
 
   return (
+    
     <html>
+      
     <header style={{ backgroundImage:`url(${background})`}}>
-      <Link to="Home" id="logoContainer">
-        <img id="logo" alt="Siam Thai Cafe" src={logo}/> 
-      </Link>
-       <Link to="TakeAway" class="headerLinks">Take Away</Link>
-       <Link to="OurJourney" class="headerLinks">Vår Reise</Link>
-       <Link to="Contact" class="headerLinks">Kontakt</Link>
+    <Router>
+    <Switch>
+            <Route path="/" exact component={home} id="logoContainer">
+              <img id="logo" alt="Siam Thai Cafe" src={logo}/> 
+            </Route>
+            <Route path="about" component={takeAway} class="headerRoutes">Take Away</Route>
+            <Route path="ourJourney" component={ourJourney} class="headerRoutes">Vår Reise</Route>
+            <Route path="contact" component={contact} class="headerRoutes">Kontakt</Route>
+       </Switch>
        <div id="flagContainer">
-         <img id="flag" alt="Language" src={langNorway}/> 
-         <div id="flagText" >Velg Språk</div>
+            <img id="flag" alt="Language" src={langNorway}/> 
+            <div id="flagText" >Velg Språk</div>
        </div>
+      </Router>
     </header >
 
 
     
     <body>
-    <h1>Menu</h1>
+    <h1>MENY</h1>
 
       <main> 
         <div class="menu">
@@ -41,7 +61,6 @@ function Home() {
             <h2>Pad Thai</h2>
             <p>Langtidskokte eggnudler tilført gjennomstekt egg, marinert svin, chilli, røkte nøtter og thai urter.</p>
             <span>Allergener: nøtter, egg, hvete</span>
-            <img class=""></img>
           </div>
         </div>
       </main>
@@ -74,4 +93,4 @@ function Home() {
     </html>
   )
 }
-export default Home;
+export default siam;

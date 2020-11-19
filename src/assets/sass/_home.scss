@@ -1,10 +1,10 @@
 $fontcolor: #FCF119;
 $background:#01AC4E;
-// @font-face {
-//   font-family: menu;
-//   font-weight: 600;
-//   src: local('DancingScript-SemiBold'), url(./fonts/menu/DancingScript-SemiBold.ttf) format('truetype');
-// }
+@font-face {
+  font-family: menuFont;
+  src: local('DancingScript-SemiBold'), url(./fonts/menu/static/DancingScript-SemiBold.ttf) format('truetype');
+   }
+  
 
 header {
   text-align: center;
@@ -17,6 +17,15 @@ header {
   object-fit: cover;
   text-decoration: none;
   font-size: 30px;
+}
+
+.is-active {
+  font-weight: 800px;
+}
+
+main{
+  font-family: menuFont;
+  font-size: 40px;
 }
 
 #logo {
@@ -33,7 +42,7 @@ header {
   text-decoration: none;
 }
 
-.headerLinks {
+.headerRoutes {
   margin: 30px auto auto auto;
   padding: 20px 30px;
   background-color: $background;
@@ -55,6 +64,8 @@ header {
 
 h1 {
   text-align: center;
+  font-family: menuFont;
+  font-size: 100px;
 }
 
 
