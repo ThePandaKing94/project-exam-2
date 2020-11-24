@@ -1,0 +1,108 @@
+$fontcolor: #FCF119;
+$background:#01AC4E;
+
+  
+header {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  width:auto; 
+  object-fit: cover;
+  text-decoration: none;
+  font-size: 30px;
+  overflow: hidden;
+}
+
+.is-active {
+  font-weight: 800px;
+}
+
+#logo {
+    display: block;
+    width: 150px;
+    text-align: center;
+    color: $fontcolor;
+    text-decoration: none;
+    margin: 10px;
+  }
+  
+  #logoContainer {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+  }
+  
+  .headerRoutes {
+    margin: 30px auto auto auto;
+    padding: 20px 30px;
+    background-color: $background;
+    color: $fontcolor;
+    text-decoration: none;
+    border-radius: 15px;
+  }
+  
+  
+  #flagContainer {
+    margin: 30px 10px auto auto;
+    color: $fontcolor;
+  }
+  
+  #flag {
+    width: 50px;
+    height: 50px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: menuFont;
+    font-size: 100px;
+  }
+  
+  
+  main {
+    margin: auto;
+    width: 70%;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 30px 0;
+    margin-top: 50px;
+  }
+  
+  #upperFooter {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+  }
+  
+  #openingHours {
+     display: flex;
+     flex-direction: column;
+  }
+  
+  #recommendations {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #fbRecommendation, #googleRecommendation, #instaRecommendation {
+    width: 80px;
+    height: 80px;
+  }
+  
+  #socialMedia {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+    margin: auto;
+  }
+  
+  #copyright {
+    margin-top: 100px;
+    text-align: center;
+  }
