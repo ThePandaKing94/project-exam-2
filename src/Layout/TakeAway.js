@@ -3,8 +3,7 @@ import { Row, Col, Form, FormGroup, Label, Input, Button } from "reactstrap";
 import Axios from "axios";
 
 function TakeAway() {
-  
-  const InputForm = () => {
+
   const initialInputState = { name: "", message: "" };
   const [newMessage, setNewMessage] = useState(initialInputState);
 
@@ -69,6 +68,5 @@ function TakeAway() {
     </div>
   );
 };
-}
 
 export default TakeAway;

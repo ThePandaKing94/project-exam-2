@@ -11,6 +11,7 @@
     "axios": "^0.21.0",
     "bootstrap": "^3.4.1",
     "config": "^3.3.2",
+    "cors": "^2.8.5",
     "cropper": "^4.1.0",
     "node-sass": "^4.14.1",
     "nodemailer": "^6.4.16",
