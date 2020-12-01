@@ -1,0 +1,15 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main * {
+    padding: 20px;
+    margin: auto;
+}
+
+iframe {
+    display: block;
+    width: 50vw;
+    height: 600px;
+}

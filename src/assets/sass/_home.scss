@@ -1,18 +1,46 @@
 @font-face {
-  font-family: menuFont;
+  font-family: h1Text;
   src: local('DancingScript-SemiBold'), url(./fonts/menu/static/DancingScript-SemiBold.ttf) format('truetype');
    }
 
-header {
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 80vh;
-  background-image: url(../sass/images/headerBackground.jpg);
+@font-face {
+  font-family: menuFont;
+  src: local('DancingScript-SemiBold'), url(./fonts/ourJourney/CrimsonText-Bold.ttf) format('truetype');
 }
 
-main{
-  border: 3px solid black;
-  font-family: menuFont;
-  font-size: 40px;
+.header__headerRoutes {
+  font-family: headerText;
+  font-size: 40px !important;
 }
+
+#mainImg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  background-image: url(../sass/images/headerBackground.jpg);
+  background-position: center 60%;
+}
+
+h1 {
+  margin-top: 80px !important;
+  font-family: h1Text !important;
+  font-size: 80px !important;
+  color: #622A0F !important;
+  margin-bottom: 100px !important;
+}
+
+main {
+  background: #622A0F;
+  padding: 50px;
+  border: 15px dotted white;
+  font-family: menuFont;
+  font-size: 30px;
+  color: white;
+  position: relative;
+  margin: 0 auto 100px auto;
+  width: 70%;
+  outline: solid 50px #622A0F;
+}
+
+
 

@@ -2,9 +2,171 @@
   "dishes": [
               {
                 "number": "1",
+                "title": "Por Pia Tod",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/1.jpg"
+              },  
+              {
+                "number": "2",
+                "title": "Goong Hum Pha",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/2.jpg"
+              },
+              {
+                "number": "3",
+                "title": "Nong Ghai Tod",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/3.jpg"
+              },  
+              {
+                "number": "4",
+                "title": "Ghai Tod",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/4.jpg"
+              },  
+              {
+                "number": "5",
                 "title": "Pad Thai",
-                "allergies": "Allergener: nøtter, egg, hvete"
-                
-              }  
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/5.jpg"
+              },  
+              {
+                "number": "6",
+                "title": "Pad Thai Goong",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/6.jpg"
+              },  
+              {
+                "number": "7",
+                "title": "Pad Kaphao",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/7.jpg"
+              },
+              {
+                "number": "8",
+                "title": "Pad Kapaho Goong",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/8.jpg"
+              },  
+              {
+                "number": "9",
+                "title": "Ghai Pad m/ Mamaung Him Mapan",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/9.jpg"
+              },  
+              {
+                "number": "10",
+                "title": "Khao Pad",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/10.jpg"
+              }, 
+              {
+                "number": "11",
+                "title": "Pad Nam Mun Hoi",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/11.jpg"
+              },  
+              {
+                "number": "12",
+                "title": "Pad King",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/12.jpg"
+              },
+              {
+                "number": "13",
+                "title": "Pad Preaw Wan Ghai",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/13.jpg"
+              },  
+              {
+                "number": "14",
+                "title": "Kratiem Prikthai",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/14.jpg"
+              },  
+              {
+                "number": "15",
+                "title": "Pad Kratiem Prikthai Goong",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/15.jpg"
+              }, 
+              {
+                "number": "16",
+                "title": "Geang Ped",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/16.jpg"
+              },  
+              {
+                "number": "17",
+                "title": "Geang Kiew Wan",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/17.jpg"
+              },
+              {
+                "number": "18",
+                "title": "Geang Paneang",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/18.jpg"
+              },  
+              {
+                "number": "19",
+                "title": "Tom Yam Goong",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/19.jpg"
+              },  
+              {
+                "number": "20",
+                "title": "Tom Kha Gai Goong",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/20.jpg"
+              }, 
+              {
+                "number": "21",
+                "title": "Pad Mama",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/21.jpg"
+              },  
+              {
+                "number": "22",
+                "title": "Geang Pet Ped Yang",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/22.jpg"
+              },
+              {
+                "number": "23",
+                "title": "Chopsuey",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/23.jpg"
+              },  
+              {
+                "number": "24",
+                "title": "Gai Satay",
+                "description": "lorem ipsum bla bla bla",
+                "allergies": "Allergener: nøtter, egg, hvete",
+                "image": "images/menuImages/24.jpg"
+              }
            ]
 }

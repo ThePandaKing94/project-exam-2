@@ -1,54 +1,100 @@
-$fontcolor: #FCF119;
-$background:#01AC4E;
+$fontcolor: #fbce3d;
+$background: #055224;
+$headerBackground: #622A0F;
 
+@font-face {
+  font-family: headerText;
+  src: local('DancingScript-SemiBold'), url(./assets/sass/fonts/allSites/Pattaya-Regular.ttf) format('truetype');
+   }
+
+   body {
+     background-color: white;
+   }
   
 header {
   text-align: center;
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  width:auto; 
   text-decoration: none;
   font-size: 30px;
   overflow: hidden;
+  text-decoration: none;
+}
+
+#headerContainer {
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 20% 80%;
+  height: fit-content;
+  min-width: 100vw;
 }
 
 .is-active {
   font-weight: 800px;
 }
 
-#logo {
-    display: block;
-    width: 150px;
+#header__logo {
+    display: inline;
+    float: left;
     text-align: center;
     color: $fontcolor;
-    text-decoration: none;
     margin: 10px;
+    overflow: hidden;
+    max-width: 150px;
   }
   
-  #logoContainer {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-  }
   
-  .headerRoutes {
-    margin: 30px auto auto auto;
-    padding: 20px 30px;
+  .header__headerRoutes {
+    display: inline-block;
+    margin: 30px 50px auto 50px;
+    padding: 5px 15px;
     background-color: $background;
     color: $fontcolor;
-    text-decoration: none;
     border-radius: 15px;
+    font-family: headerText;
+    box-shadow: 4px 8px #888888;
+  }
+
+  .header__headerRoutes:hover {
+    color: #b017d6;
+    text-shadow: 5px 5px 5px rgb(95, 67, 255);
+    text-decoration: 50%;
   }
   
   
-  #flagContainer {
-    margin: 30px 10px auto auto;
-    color: $fontcolor;
+  #header__language {
+    cursor: pointer;
+    float: right;
+    display: inline;
+    height: fit-content;
+    margin: 30px 30px auto auto;
+  }
+
+  #header__language img {
+    width: 75px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 4px 8px #888888;
+  }
+
+  #header__flagContainer {
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+    background-color:$background;
+    border-radius: 20px;
+    display: none;
   }
   
-  #flag {
-    width: 50px;
-    height: 50px;
+  .header__flagContainer--flag {
+    width: 75px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 4px 8px #888888;
+  }
+
+  .header__flagContainer--flagText {
+    color: $background;
+    font-family: oswald;
+    font-weight: 900;
   }
   
   h1 {
@@ -56,14 +102,7 @@ header {
     font-family: menuFont;
     font-size: 100px;
   }
-  
-  
-  main {
-    margin: auto;
-    width: 70%;
-    padding: 30px;
-    text-align: center;
-  }
+
   
   footer {
     background-color: black;
@@ -71,37 +110,38 @@ header {
     font-size: 30px;
     padding: 30px 0;
     margin-top: 50px;
+    font-family: oswald;
   }
   
-  #upperFooter {
+  #footer__upperFooter {
     display: grid;
     grid-template-columns: auto auto;
     text-align: center;
   }
   
-  #openingHours {
+  #footer__socialMedia--openingHours {
      display: flex;
      flex-direction: column;
   }
   
-  #recommendations {
+  #footer__recommendations {
     display: flex;
     flex-direction: column;
   }
   
-  #fbRecommendation, #googleRecommendation, #instaRecommendation {
+  #footer__socialMedia--fbRecommendation, #footer__socialMedia--googleRecommendation, #footer__socialMedia--instaRecommendation {
     width: 80px;
     height: 80px;
   }
   
-  #socialMedia {
+  #footer__socialMedia {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 50px;
     margin: auto;
   }
   
-  #copyright {
+  #footer__copyright {
     margin-top: 100px;
     text-align: center;
   }

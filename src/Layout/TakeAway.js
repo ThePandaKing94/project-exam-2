@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Row, Col, Form, FormGroup, Label, Input, Button } from "reactstrap";
 import Axios from "axios";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function TakeAway() {
 
